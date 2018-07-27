@@ -27,8 +27,7 @@ public class DebugController {
         List<DebugVO> bugList = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
             DebugVO debugVO = new DebugVO();
-            debugVO.setBugName("我是Bug" + i);
-            debugVO.setBugCode("我的编号是:" + i);
+            setDebugValue(i, debugVO);
 /*            if (i == 100) {
                 bugList.add(null);
             } else {
@@ -38,6 +37,11 @@ public class DebugController {
             System.out.println(i);
         }
         methodTwo(bugList);
+    }
+
+    private void setDebugValue(int i, DebugVO debugVO) {
+        debugVO.setBugName("我是Bug" + i);
+        debugVO.setBugCode("我的编号是:" + i);
     }
 
     private void methodTwo(List<DebugVO> debugVOList) {
