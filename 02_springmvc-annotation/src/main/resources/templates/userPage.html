@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>user</title>
+</head>
+<body class="container">
+<div style="margin:auto; width:400px; height:300px;top: 0px;left: 0px;right: 0px;bottom: 0px;position: fixed;">
+    <h1>我是个页面</h1>
+
+    <div>
+        <label for="name">name</label>
+        <div class="col-sm-10">
+            <input type="text" name="name"  id="name" th:value="*{user.name}"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>
