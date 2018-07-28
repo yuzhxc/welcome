@@ -1,4 +1,4 @@
-package com.welcome.springmvcannotation.exception;
+package com.welcome.springmvcannotation.base.exception;
 
 /**
  * 系统业务异常
