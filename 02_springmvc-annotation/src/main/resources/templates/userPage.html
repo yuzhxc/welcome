@@ -11,7 +11,10 @@
     <div>
         <label for="name">name</label>
         <div class="col-sm-10">
+            <h5>model中的值</h5>
             <input type="text" name="name"  id="name" th:value="*{user.name}"/>
+            <h5>session中的值</h5>
+            <input type="text" name="session" id="session" th:value="*{session.user.name}"/>
         </div>
     </div>
 </div>
