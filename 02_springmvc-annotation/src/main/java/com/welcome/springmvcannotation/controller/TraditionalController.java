@@ -19,7 +19,7 @@ public class TraditionalController {
         return user;
     }
 
-    @RequestMapping(value = "/getUserJson", method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value = "/getUserJson")
     @ResponseBody
     public User getUserJson(){
         User user = new User();
@@ -28,7 +28,7 @@ public class TraditionalController {
         return user;
     }
 
-    @RequestMapping(value = "/getUserJson1", method = {RequestMethod.GET, RequestMethod.POST}, params = "pwd=123456")
+    @RequestMapping(value = "/getUserJson1")
     @ResponseBody
     public User getUserJson1() {
         User user = new User();
