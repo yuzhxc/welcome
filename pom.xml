@@ -29,6 +29,8 @@
         <module>01_debug</module>
         <!--spring mvc annotations-->
         <module>02_springmvc-annotation</module>
+        <!--java 对象初始化过程-->
+        <module>03_javaobj-initialization</module>
     </modules>
     <dependencies>
         <dependency>
