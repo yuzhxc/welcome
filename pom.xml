@@ -6,7 +6,7 @@
     <groupId>com.yonyou</groupId>
     <artifactId>welcome</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>debug</name>
     <description>Demo project for Spring Boot</description>
@@ -31,6 +31,7 @@
         <module>02_springmvc-annotation</module>
         <!--java 对象初始化过程-->
         <module>03_javaobj-initialization</module>
+        <module>04_JVM</module>
     </modules>
     <dependencies>
         <dependency>
